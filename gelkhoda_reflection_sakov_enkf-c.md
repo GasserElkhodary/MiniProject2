@@ -1,11 +1,3 @@
 # Reflection: sakov_enkf-c
 
-**Inactivity patterns.** sakov_enkf-c has 1772 WoC commits by 7 author identities between 2014-06-18 and 2025-11-06. The overall trajectory is **declining**, with 0 gap(s) of at least three inactive months. The longest gap ran from 2025-02 to 2025-03 (2 months), after which 41 commits were made.
-
-**Commits around the gap.** Before: Other:Documentation updates. After: Other:Documentation updates.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Same contributors (41 commits by returning, 0 by new; top: sakov, pavel sakov).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2026-09-22); recent work: Other.
+EnKF-C is a data-assimilation code written and maintained by a single developer, Pavel Sakov. It shows a regular rhythm of small numbered releases, with yearly volume slowly declining. It has no gaps of three months or more. Its longest gap is only February–March 2025, between routine releases (v2.33.16 in Nov 2024 and a user-guide edit in Jan 2025) and v2.33.17 in April 2025, followed by a quick series of v2.34–v2.36 releases. The gap is easy to interpret as a personal break rather than a problem. The project is fully dependent on one person, which is its main sustainability risk, but it remains active with releases into September 2026.

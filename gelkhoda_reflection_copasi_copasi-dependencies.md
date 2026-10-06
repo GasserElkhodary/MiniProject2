@@ -1,11 +1,3 @@
 # Reflection: copasi_copasi-dependencies
 
-**Inactivity patterns.** copasi_copasi-dependencies has 515 WoC commits by 16 author identities between 2013-03-04 and 2026-03-12. The overall trajectory is **declining**, with 6 gap(s) of at least three inactive months. The longest gap ran from 2018-07 to 2019-03 (9 months), after which 240 commits were made.
-
-**Commits around the gap.** Before: Bug fixes:Other. After: Bug fixes:Dependency updates.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Mix of returning and new contributors (234 commits by returning, 6 by new; top: frank t. bergmann, stefan hoops, frank t. bergmann).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2026-09-16); recent work: Other:Dependency updates.
+copasi-dependencies is an infrastructure repository that bundles third-party libraries (libSBML, Qt, zipper, etc.) for building COPASI. Its activity is low but steady every year since 2013, with six ≥3-month gaps. Those gaps line up with periods when no dependency changed. The longest gap (Jul 2018–Mar 2019) was easy to interpret. It follows the integration of libSBML 5.17 and Qt 5.11 fixes, and ends with external build-fix PRs and the libSBML 5.18.1 update. The same two maintainers, Frank Bergmann and Stefan Hoops, drive almost all work, and recent commits (C++20 default, zlib handling, libSBML updates in 2026) show the same pattern continuing.

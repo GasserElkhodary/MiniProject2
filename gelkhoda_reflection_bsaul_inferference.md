@@ -1,11 +1,3 @@
 # Reflection: bsaul_inferference
 
-**Inactivity patterns.** bsaul_inferference has 328 WoC commits by 16 author identities between 2014-07-03 and 2025-05-14. The overall trajectory is **irregular**, with 7 gap(s) of at least three inactive months. The longest gap ran from 2021-05 to 2025-04 (48 months), after which 16 commits were made.
-
-**Commits around the gap.** Before: Other:Release. After: Other:Feature development.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Same contributors (16 commits by returning, 0 by new; top: bradley saul, bsaul).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2025-05-14); recent work: Other:Feature development.
+inferference is an R package whose development ran from 2014 to 2017 and ended with the v1.0.0 release and its Journal of Statistical Software paper. Its seven ≥3-month gaps, and the four-year gap from 2021 to 2025, reflect completion rather than abandonment. The last pre-gap commit explicitly says the documentation update was 'to keep package on CRAN'. The gap was easy to interpret. The May 2025 recovery was a single day of infrastructure work by the original author (nix support, GitHub Actions, gh-pages, 'trying to pass CRAN checks'), which again points to compliance maintenance rather than new features. Without CRAN requirements the package would likely have stayed dormant.

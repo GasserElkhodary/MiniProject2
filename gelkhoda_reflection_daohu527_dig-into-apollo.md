@@ -1,11 +1,3 @@
 # Reflection: daohu527_dig-into-apollo
 
-**Inactivity patterns.** daohu527_dig-into-apollo has 425 WoC commits by 7 author identities between 2019-04-10 and 2024-09-04. The overall trajectory is **declining**, with 4 gap(s) of at least three inactive months. The longest gap ran from 2023-08 to 2024-04 (9 months), after which 6 commits were made.
-
-**Commits around the gap.** Before: Documentation updates:Other. After: Other:Bug fixes.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Mix of returning and new contributors (4 commits by returning, 2 by new; top: zero, daohu527, pg-wang).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2026-02-03); recent work: Documentation updates:Bug fixes.
+Dig-into-Apollo is a documentation and tutorial repository about Baidu's Apollo autonomous-driving stack. Its activity peaked in 2019 and has declined since, with four ≥3-month gaps. The longest gap (Aug 2023–Apr 2024) was easy to interpret. Before it, the maintainer had restructured the docs and added docs CI, leaving nothing to write until upstream changed. The project came back when the 'r7.0.0' branch was merged (PR #56) and planning scenarios were added, i.e., when there was a new Apollo release to document. The same owner drove the recovery (commits appear as both daohu527 and 'zero'), with a couple of one-off external fixes.

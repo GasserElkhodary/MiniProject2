@@ -1,11 +1,3 @@
 # Reflection: almost-matching-exactly_dame-python-package
 
-**Inactivity patterns.** almost-matching-exactly_dame-python-package has 501 WoC commits by 23 author identities between 2019-08-01 and 2025-09-17. The overall trajectory is **declining**, with 3 gap(s) of at least three inactive months. The longest gap ran from 2024-06 to 2025-05 (12 months), after which 22 commits were made.
-
-**Commits around the gap.** Before: Other:Bug fixes. After: Other:Bug fixes.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Same contributors (22 commits by returning, 0 by new; top: neha gupta, nick eubank, nick eubank).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2025-07-26); recent work: Other:Bug fixes.
+The DAME/FLAME Python package from the Almost-Matching-Exactly lab peaked in 2020 and has declined since, with three ≥3-month gaps. The longest gap (Jun 2024–May 2025) follows a period of Travis CI troubleshooting, Dependabot bumps and auto-merged outside PRs, with no feature work. That suggests the maintainers had moved on and the CI was fragile. It was moderately easy to interpret. The recovery in June–July 2025 was forced by upstream changes. Nick Eubank fixed pandas chained-assignment issues that would break under Copy-on-Write, and Neha Gupta updated the CI and dependencies. Both are original maintainers. The project survives through reactive maintenance only, so it is likely to go quiet again until the next breaking dependency change.

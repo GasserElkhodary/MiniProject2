@@ -1,11 +1,3 @@
 # Reflection: gsi-cs-co_chart-fx
 
-**Inactivity patterns.** gsi-cs-co_chart-fx has 3633 WoC commits by 53 author identities between 2019-05-07 and 2025-09-25. The overall trajectory is **irregular**, with 1 gap(s) of at least three inactive months. The longest gap ran from 2025-01 to 2025-04 (4 months), after which 23 commits were made.
-
-**Commits around the gap.** Before: Other:Feature development. After: Other:Bug fixes.
-
-**Interpretation.** Likely reason for inactivity: TODO. Recovered: Yes. Why: TODO. Who: Mix of returning and new contributors (10 commits by returning, 13 by new; top: lc, florian enner, lacgit).
-
-**Ease of interpretation.** TODO: was the gap easy or hard to explain from the evidence?
-
-**Current status.** Active (last GitHub commit 2026-03-13); recent work: Bug fixes:Feature development.
+chart-fx (now fair-acc/chart-fx) had large development bursts in 2019–2020 and 2023, separated by quieter periods, so its trajectory is irregular and shrinking overall. Only one gap reaches three months: Jan–Apr 2025. That gap was easy to interpret. The last commits before it were small axis and formatter fixes plus quality-gate cleanups, with no pending work, and the library had already slowed. It recovered when new external users submitted PRs to make it compile on Ubuntu, raise the test heap size (#692) and fix wrong time calculations in the examples. The original maintainers stayed involved through merges and 2026 metadata updates. The project is active, but it is now maintained by occasional outside contributors rather than a funded core team.
