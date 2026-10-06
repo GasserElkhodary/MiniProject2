@@ -1,0 +1,514 @@
+prepost;project;commit;author;time;message
+pre;gsi-cs-co_chart-fx;01ae0a936799451e8a027452c35acffa46b7bc3c;Benjamin Peter <B.Peter@gsi.de>;1730714350;"AbstractRendererXY: Update axesList of AbstractRenderer when changed (#677)
+"
+pre;gsi-cs-co_chart-fx;8d15ad2dfafe4b48ac0c54eecf690b408a0c1451;Pavel Chervakov <chervakov@gmail.com>;1732109177;"Fix endless update loop in the presence of empty DataSet (#674)
+
+"
+pre;gsi-cs-co_chart-fx;6349242e7a26e342d48b1aa7ad060cd5ff11bfcf;Benjamin Peter <B.Peter@gsi.de>;1732199403;"Make NumberFormatterImpl work with UTF8 and allow optional exponential separator
+"
+pre;gsi-cs-co_chart-fx;0ebc17f100ea3c5244444f5ae52f35e500e6d31c;Benjamin Peter <B.Peter@gsi.de>;1732201871;"Make NumberFormatterImpl#fromString work if whitespace is used as exponential separator
+"
+pre;gsi-cs-co_chart-fx;9cfa75bcbc0cd0825cbff9bcf824b929dae6836d;Benjamin Peter <B.Peter@gsi.de>;1732278137;"Improve axis label in case of empty name or unit
+
+- Remove leading white space when a unit was present but no axis name
+- Use an empty label if no axis name was specified and the unit was an empty string
+- Extracted axis label generator to own method for easier overwrite
+"
+pre;gsi-cs-co_chart-fx;2bf2a359feea1d8ad1101197f2dc5be6f15c6575;Benjamin Peter <mail@benjaminpeter.name>;1733729780;"Update DefaultNumericAxisTests.java, remove throws Exception
+
+- Remove throws exception for quality gate"
+pre;gsi-cs-co_chart-fx;b2e5413c09e3768c9020d9865557a3736eb94ba4;Benjamin Peter <B.Peter@gsi.de>;1733730378;"NumberFormatterImpl: Rename fields to pass quality gate
+"
+pre;gsi-cs-co_chart-fx;295bc963bd969df4c6d2527213fd7eeb59578d19;Benjamin Peter <B.Peter@gsi.de>;1733730399;"DefaultFormatterTest: remove throws declaration to pass quality gate
+"
+pre;gsi-cs-co_chart-fx;e6d5573e7d9ee62e10afb07fe51536bd3af43911;Benjamin Peter <B.Peter@gsi.de>;1733990690;"AbstractValueIndicator: prevent label editing when setEditable(false)
+
+- Affects XValueIndicator, YValueIndicator, YWatchValueIndicator
+"
+pre;gsi-cs-co_chart-fx;84a1236f5691e6f1363a159bf863bdc5c6aeb45b;Benjamin Peter <B.Peter@gsi.de>;1733990690;"AbstractValueIndicator: prevent label editing when setEditable(false)
+
+- Affects XValueIndicator, YValueIndicator, YWatchValueIndicator
+"
+post;gsi-cs-co_chart-fx;02152b0030426f04ddbbcb5752303e40b17f8bf1;lc <lc@comerich.com>;1746882686;"Make it compile in Ubuntu.
+"
+post;gsi-cs-co_chart-fx;8878b813e21effdb37f5618cc061c80ad71420a0;lacgit <54506815+lacgit@users.noreply.github.com>;1747048570;"Increase maxium heap size for testsuite (#692)
+
+The `-Xmx` flag sets the maximum heap-size of the jvm. The change in this commit increase this limit for the unittest-runner from 2 gigabyte to 4 gigabyte, after reports of the testsuite failing with out-of-memory on certain systems.
+
+Co-authored-by: lc <lc@comerich.com>"
+post;gsi-cs-co_chart-fx;0aab4cdfac6b9bc0a2d9de157c47f6973ba50d70;lc <lc@comerich.com>;1750061557;"Wrong calculations: 30 ddmins = 1800 secs instead of 180; 2.5 hrs = 9000 secs instead of 900.
+"
+post;gsi-cs-co_chart-fx;8055058208caa598000be6715a779b568c6a111f;lc <lc@comerich.com>;1750061557;"Wrong calculations: 30 ddmins = 1800 secs instead of 180; 2.5 hrs = 9000 secs instead of 900.
+"
+post;gsi-cs-co_chart-fx;59f5f5f2c4e745bb91de9a5521a611bbecc520bb;lc <lc@comerich.com>;1750341170;"Example of no time gap financial chart.
+"
+post;gsi-cs-co_chart-fx;8610d5745383e0227dce9a9461c85b3a87f2133a;lc <lc@comerich.com>;1751608799;"Minor typo.
+"
+post;gsi-cs-co_chart-fx;47381e790070da9d0a203d91133088847ad7397f;lc <lc@comerich.com>;1751608799;"Minor typo.
+"
+post;gsi-cs-co_chart-fx;66bf05fbd05624021b7124e8a0fdb65d3d2789ed;lacgit <54506815+lacgit@users.noreply.github.com>;1751789350;"Merge branch 'fair-acc:main' into noGapCandleStickPullReq
+"
+post;gsi-cs-co_chart-fx;e1e925c22a431b3f3eb44c54657607077510d889;lc <lc@comerich.com>;1751987602;"Fine tune for CI warnings.
+"
+post;gsi-cs-co_chart-fx;97373272574f219789e9250527d1983a3633a905;lc <lc@comerich.com>;1752113641;"Fine tune for CI warnings.
+"
+pre;bsaul_inferference;c2abe0834f0bdc33dad17bce81161abd1123cb53;Bradley Saul <bradleysaul@gmail.com>;1511553541;"update CITATION to JSS file
+"
+pre;bsaul_inferference;242ac40062b961918d934661ada52980c31885c1;Bradley Saul <bradleysaul@gmail.com>;1511553581;"advance to v1.0.0 and update description with JSS reference
+"
+pre;bsaul_inferference;53302b49a2274425d349349d3b90bf54b26ab4dd;Bradley Saul <bradleysaul@gmail.com>;1511554207;"Merge branch 'master' of github.com:bsaul/rinterference
+"
+pre;bsaul_inferference;4cff8ebf23aeacb7fdf8cb591818d27877571ddd;Bradley Saul <bradleysaul@gmail.com>;1511554207;"Merge branch 'master' of github.com:bsaul/rinterference
+"
+pre;bsaul_inferference;b9275dfc61c625d6526829ebc6384e40441182d0;Bradley Saul <bradleysaul@gmail.com>;1511555242;"Merge branch 'master' of github.com:bsaul/rinterference
+"
+pre;bsaul_inferference;b086cdef579df87429e294730043ad3fab3e1eb2;Bradley Saul <bradleysaul@gmail.com>;1511560850;"update description per CRAN request
+"
+pre;bsaul_inferference;245a41b8c4e6e5d9bad5bea819fd78379f539211;Brian G. Barkley <BarkleyBG@outlook.com>;1583376764;"Allow model_method='HLfit'. Fixes #21.
+
+This would allow the user to fit models with spaMM::HLfit(). The user
+would need to supply own integratoin function unless specifying the
+default rand.family = stats::gaussian().
+"
+pre;bsaul_inferference;0de308b62561d23325ab67087278619378c41c7a;Bradley Saul <bradleysaul@gmail.com>;1583588890;"Merge pull request #22 from BarkleyBG/fit_spaMM_model
+
+Allow model_method='HLfit'. Fixes #21."
+pre;bsaul_inferference;79712e6ed32a4b9ce7ff1325d2a44405ddc24fe6;bsaul <bradleysaul@gmail.com>;1619012432;"minor documentation updates to keep package on CRAN
+"
+pre;bsaul_inferference;6bb643ba8b45d7816891d05cb8dee31591c8bf3f;bsaul <bradleysaul@gmail.com>;1619012553;"catch up with github
+
+Merge branch 'master' of github.com:bsaul/rinterference
+
+# Conflicts:
+#	DESCRIPTION
+"
+post;bsaul_inferference;39c1e518409739afb5fab38c29986c9d0dafd84c;Bradley Saul <bradleysaul@fastmail.com>;1747221623;"add nix support
+"
+post;bsaul_inferference;581b59265b29506de616f48757dd5e1fe6db71fe;Bradley Saul <bradleysaul@fastmail.com>;1747221909;"add github actions
+"
+post;bsaul_inferference;98055624195c630340c8e0384d797dacc32a05f5;Bradley Saul <bradleysaul@fastmail.com>;1747221921;"add github actions
+"
+post;bsaul_inferference;48a430ca04a1c3b4d31a7ebb94d72f7df4aab76a;bsaul <bradleysaul@fastmail.com>;1747222197;"Deploying to gh-pages from @ bsaul/inferference@98055624195c630340c8e0384d797dacc32a05f5 🚀
+"
+post;bsaul_inferference;1832acf0b727091a668fbbd815579465b938e976;bsaul <bradleysaul@fastmail.com>;1747222197;"Initial gh-pages commit
+"
+post;bsaul_inferference;646d919d27369b73ae39c34852eabf3ec0493273;Bradley Saul <bradleysaul@fastmail.com>;1747229968;"trying to pass CRAN checks
+"
+post;bsaul_inferference;a8cb185773bd52dafba05084a13f048dc735d414;bsaul <bradleysaul@fastmail.com>;1747230309;"Deploying to gh-pages from @ bsaul/inferference@646d919d27369b73ae39c34852eabf3ec0493273 🚀
+"
+post;bsaul_inferference;dc57710478b83eb62f968611f44b6f3f40c38f6c;Bradley Saul <bradleysaul@fastmail.com>;1747230442;"update documentation
+"
+post;bsaul_inferference;373012620229050f7a434df25eef8c19c598cf66;bsaul <bradleysaul@fastmail.com>;1747230645;"Deploying to gh-pages from @ bsaul/inferference@dc57710478b83eb62f968611f44b6f3f40c38f6c 🚀
+"
+post;bsaul_inferference;e5bb9be7ee0f2ecf5a8a87c389116d19d1718cfe;Bradley Saul <bradleysaul@fastmail.com>;1747230758;"ignore flake files
+"
+pre;daohu527_dig-into-apollo;4005aef835966312d8e5e3cd5c72b0b4803f0681;daohu527 <daohu527@gmail.com>;1653667252;"docs: move readme to docs
+"
+pre;daohu527_dig-into-apollo;dc9eaa96acf136e37a3c1c230fc23a383da312d7;daohu527 <daohu527@gmail.com>;1653748892;"docs: change theme and modify dirs
+"
+pre;daohu527_dig-into-apollo;d4833ddcbd91eaed4471a9de8c8f626cb3944949;zero <daohu527@gmail.com>;1653749711;Update readme.md
+pre;daohu527_dig-into-apollo;441e6d242e4b4ee4118ef3ad23525ba6b9e93a12;daohu527 <daohu527@gmail.com>;1653751010;"docs: delete head links
+"
+pre;daohu527_dig-into-apollo;6a197aaf2ca3fb6a4285f555f64f23cad969d6f0;daohu527 <daohu527@gmail.com>;1653826642;"docs: update introduction
+"
+pre;daohu527_dig-into-apollo;59972fe80757d96204a1b2a12905a895577f2b46;zero <daohu527@gmail.com>;1653827157;"add docs ci
+
+add docs ci support by read the docs"
+pre;daohu527_dig-into-apollo;b710571a390bad4bd361b03b8aa3f3f0ccf6ab2f;zero <daohu527@gmail.com>;1666753246;Update readme.md
+pre;daohu527_dig-into-apollo;26362b5a31607d35a41cf8957f4c43b97542a719;zero <daohu527@gmail.com>;1666767229;Update readme.md
+pre;daohu527_dig-into-apollo;042efbe7b6898ada687765cc3db353f1797e2483;zero <daohu527@gmail.com>;1668307382;docs: add google groups
+pre;daohu527_dig-into-apollo;51b21172191fb4bb1a3c26860ba6c5e95e668845;Handy <44183809+Handy-xing@users.noreply.github.com>;1688642717;"Merge branch 'daohu527:main' into master
+"
+post;daohu527_dig-into-apollo;54450a8c878c7601832bcc88cdd2c84e140da808;zero <daohu527@gmail.com>;1714570909;"Merge pull request #56 from daohu527/r7.0.0
+
+R7.0.0"
+post;daohu527_dig-into-apollo;3b24d5bbd85a5ea5bd2a5fa1a21b5d8838ba43aa;daohu527 <daohu527@gmail.com>;1714660354;"feat(planning): add planning scenarios
+"
+post;daohu527_dig-into-apollo;de499bcb07089acb05dd9f47abc40132e6f1099d;PG-Wang <2497184858@qq.com>;1717220231;"ANP-106202 zidingyi
+"
+post;daohu527_dig-into-apollo;073e506e6c8020d30ee8fee11c75faa754949ac6;zero <daohu527@gmail.com>;1724580588;"docs: release a new statement
+"
+post;daohu527_dig-into-apollo;6b2db1eda7207d4d2d4ec79092bf7285053c0539;xudooo <xd.jiang@qq.com>;1725440739;fix path to image arch.jpg
+post;daohu527_dig-into-apollo;2ec029853e3b396c29d8c2f9b57366ba83c84853;zero <daohu527@gmail.com>;1725447268;"Merge pull request #59 from xudooo/patch-1
+
+fix path to image arch.jpg"
+pre;martin2250_opencncpilot;d8a67a989f2c9dba8dd121271ecef9ef6f9bdee9;gonzalocargut <gonzalocg@live.cl>;1611700735;"Merge branch 'master' of https://github.com/gonzalocargut/OpenCNCPilot
+"
+pre;martin2250_opencncpilot;2962e4a305cf326807ebe7eee1b8302f87ab8ad7;Martin Pittermann <martinp2250@gmail.com>;1612081747;"cosmetic changes to #151
+"
+pre;martin2250_opencncpilot;f701e887db773bb007bd333dc24da0fd5ceacb60;Gonzalo CG <44714370+gonzalocargut@users.noreply.github.com>;1612624945;cosmetic changes to #151
+pre;martin2250_opencncpilot;6b6a29816a7852f985b30d382bce6c18a30f43bc;Gonzalo CG <44714370+gonzalocargut@users.noreply.github.com>;1612625099;cosmetic changes to #151
+pre;martin2250_opencncpilot;14005104bfd1d822deac489935bd2a0c26f5ada9;Gonzalo CG <44714370+gonzalocargut@users.noreply.github.com>;1612625220;cosmetic changes to #151
+pre;martin2250_opencncpilot;685978e0c15789e23875a122fdfb5ff057ebdc03;Gonzalo CG <44714370+gonzalocargut@users.noreply.github.com>;1612625296;cosmetic changes to #151
+pre;martin2250_opencncpilot;1d0c11eee6a4416756ade122fcc9df799e69327f;Martin Pittermann <martinp2250@gmail.com>;1614533925;"Merge pull request #151 from gonzalocargut/master
+
+Added support for Ethernet connection"
+pre;martin2250_opencncpilot;2a23fb2dcf19f6da9bc781af9301655d5c57f9d9;Martin Pittermann <martinp2250@gmail.com>;1614534652;"elaborate on some settings
+"
+pre;martin2250_opencncpilot;1125b642db618bd4ca441eabe7ceb4fa45e59187;Martin Pittermann <martinp2250@gmail.com>;1614535752;"add warning when applying height map twice
+"
+pre;martin2250_opencncpilot;8f297e7f69cb4c4865f03bfa0c9a3a11bb59558a;Martin Pittermann <martinp2250@gmail.com>;1614536046;"bump version to 1.5.11
+"
+post;martin2250_opencncpilot;a055345f2073867ff21f9d5dc05a4be88feff595;Paciente8159 <Paciente8159@users.noreply.github.com>;1650377077;Updated codes for µCNC
+post;martin2250_opencncpilot;1938cef23d556a5eac6125aad3aa0a0caacbf0ad;Paciente8159 <Paciente8159@users.noreply.github.com>;1650384750;Updated setting codes for µCNC
+post;martin2250_opencncpilot;7223732887c79f5fb5c13dc025b4b343d6a075ff;Paciente8159 <Paciente8159@users.noreply.github.com>;1650384801;Updated alarm codes for µCNC
+post;martin2250_opencncpilot;0b9527399289b6a78221a2cb89e93fc4b2b94988;Paciente8159 <Paciente8159@users.noreply.github.com>;1650384837;Updated error codes for µCNC
+post;martin2250_opencncpilot;f95484b991e9f216fe8de3ba2ef38ea23c3d6ef4;Paciente8159 <Paciente8159@users.noreply.github.com>;1650391850;"Added ESTOP and settings import and export
+
+- added Emergency stop control button to UI
+- added export and import settings button functions
+"
+post;martin2250_opencncpilot;37243e5476e7a42c71631e9913655b9e75ecc471;Paciente8159 <Paciente8159@users.noreply.github.com>;1650393801;"fixed import bug
+
+imported file was not being applied
+"
+post;martin2250_opencncpilot;30c07a9a99a564165a34f440e2c1602ff6eb5a74;Paciente8159 <Paciente8159@users.noreply.github.com>;1650393987;"Merge pull request #1 from Paciente8159/ucnc-mods
+
+fixed import bug"
+post;martin2250_opencncpilot;e189e72e2b117ac48bcd484f1a68ecca6e4fe296;Paciente8159 <Paciente8159@users.noreply.github.com>;1650558211;"Added probe X Y offset
+
+- added probe X Y offset
+"
+post;martin2250_opencncpilot;dd523ce347bec2c99761d77d12aef47792058f12;Paciente8159 <Paciente8159@users.noreply.github.com>;1650558211;"Added probe X Y offset
+
+- added probe X Y offset
+"
+post;martin2250_opencncpilot;468075b9689f960824dcbb6f4700eb79e6f47f38;Paciente8159 <Paciente8159@users.noreply.github.com>;1650917278;"moved probe offset controls
+
+moved probe offset settings to Manual Probing options box
+"
+pre;usgs-astrogeology_isis3;64ef34a8d6066cce11029c8132c71e740acaa9c8;Ella Mae Lee <elee@usgs.gov>;1374602806;"Improved grid user documentation, fixes #178
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5373 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;ee0822e82c7fb53d7069ec6dc53af91985d9be3c;Kim Oyama <koyama@usgs.gov>;1374772114;"Fixed the longitude equation for the south pole by making x positive instead of negative. Fixes #1719.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5386 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;d630a426b79c91879bec2d34394530867e4e46c0;Kim Oyama <koyama@usgs.gov>;1375992605;"Made the Pvl parameter for the AlphaCube constructor const for Isis standard compliance. Fixes #1744
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5451 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;978926c163510b65e9fd88b35bc88439b31a4f15;Kim Oyama <koyama@usgs.gov>;1377009813;"In Orthographic, removed code for the special case, clat = 0, in the constructor to give the correct longitude range. Added a range check in SetCoordinate() to make sure that the current longitude is in the correct domain. Updated the unit test as well as the app test for map2map. Fixes #1471.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5481 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;a98888ffe8f5165669c08b8161220836651227d4;Raad A. Saleh <rsaleh@usgs.gov>;1379092647;"Added Clementine UVVIS to socetframesettings, references m01749
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5518 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;cb7b037645d1e46d475f998af32eaa5ee5c2be87;Raad A. Saleh <rsaleh@usgs.gov>;1379094302;"PROG missed a file at commit, references m01749
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5519 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;6545b890510ee95e5bd85652d3a4e1c0e93a2a82;Tracie Sucharski <tsucharski@usgs.gov>;1380204617;"Fix seg fault when using the Qmos help. Fixes #1748.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/branches/cassinirings@5525 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;de1b10f105b9dc78f6c8ae0a54d0b9898209cf9f;Ella Mae Lee <elee@usgs.gov>;1380234844;"Updated CommandLine user documentation, fixes #867 and #1690
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5531 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;6b4e636a08f0746343fcbbb792e71c04c24c63ae;Stuart Sides <ssides@usgs.gov>;1380288329;"Updated the GML output to match third party tool requirements. Fixes #1105
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5532 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;usgs-astrogeology_isis3;2d8f1c8b7e9817f70feda8668be6e4055479659b;Stuart Sides <ssides@usgs.gov>;1380517323;"PROG Added truth file. Ref #1105
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5535 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;36ec539b67c59f315d0c96f0f589b160e9d64d88;Jeannie Backer <jwbacker@usgs.gov>;1383328075;"Fixed bug in the labels of hidtmgen. Fixes #797. Fixes #946
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5558 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;0ef1e216bd7da2d342ca82ac1ed1e4d39351f561;Janet Barrett <jbarrett@usgs.gov>;1383772290;"Fixed qview so that it maintains the band bin information between different view ports. Fixes #1612.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5571 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;d73d6299531b97488e3530bc882000ef3cf11702;Stuart Sides <ssides@usgs.gov>;1383772569;"Merged trunk changes to this Cassini-Rings a.out branch
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/branches/cassinirings@5572 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;33ec7158ca37fa48c4d6d5a70f435a4bfedd6f28;Janet Barrett <jbarrett@usgs.gov>;1383774770;"Added linc/sinc options to isis2gml and updated documentation. Fixes #1675.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5573 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;80636e2d8cfc4c922723c3b6afe82c4a8f4b7a22;Stuart Sides <ssides@usgs.gov>;1383782555;"Merged Cassini Rings and Integrated Control Environment branch into trunk Ref#775
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5574 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;36c87d960e6e4aba796c76f6c7e775bbc3495897;Jeannie Backer <jwbacker@usgs.gov>;1383845254;"PROG: Fixed merge from revision 5558.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5576 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;00259fd66535cffbb47b181ae3b093afccd1b406;Jeannie Backer <jwbacker@usgs.gov>;1383861165;"PROG: Fixed misspelling of my name.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5578 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;452275713d632e4c9c0966668460bad1074d7f44;Jeannie Backer <jwbacker@usgs.gov>;1383934058;"PROG: Fixed bug to merge with new triaxial projection code. References #5558
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5581 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;d59e3ac5e21314acdf8b44625f34f039ae3a94e3;Tracie Sucharski <tsucharski@usgs.gov>;1383939012;"Fixed history entry.
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5582 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+post;usgs-astrogeology_isis3;0040c02440223f62457ad8483afe79dd2d3685d9;Ken Edmundson <kedmundson@usgs.gov>;1384295314;"removed cout stmts in SpiceRotation.cpp; now write max likelihood info to print.prt; free points with constrained coordinates now treated as truly free; fixes #813, fixes #1521, fixes #1653
+
+git-svn-id: http://subversion.wr.usgs.gov/repos/prog/isis3/trunk@5584 41f8697f-d340-4b68-9986-7bafba869bb8
+"
+pre;sakov_enkf-c;5f95c148c6beb3c63bdc708cae15d541ef44b4a0;sakov <pavel.sakov@gmail.com>;1729223702;"cosmetics
+"
+pre;sakov_enkf-c;a45b50aa50fdb604e86ae99b41e2d565bb473252;sakov <pavel.sakov@gmail.com>;1729584433;"v2.33.13
+"
+pre;sakov_enkf-c;d31272e204ecd9bd86b1d9767ddf55c7dfd2f93d;sakov <pavel.sakov@gmail.com>;1729926177;"v2.33.14
+"
+pre;sakov_enkf-c;455e2886919d2001996162350a567a95d88e87f0;sakov <pavel.sakov@gmail.com>;1730063791;"cosmetics
+"
+pre;sakov_enkf-c;ce3aabb0ec9314bd38378ab4459f9cc0a5fa1c4c;sakov <pavel.sakov@gmail.com>;1731279534;"two minor corrections in the user guide
+"
+pre;sakov_enkf-c;e80d9baf213007b76910655a06c52c1b12df2856;sakov <pavel.sakov@gmail.com>;1731279639;"Merge branch 'master' of https://github.com/sakov/enkf-c
+"
+pre;sakov_enkf-c;19c127122774022deeb795e90c0b6151e09afe13;sakov <pavel.sakov@gmail.com>;1731627734;"deleted a redundant comment
+"
+pre;sakov_enkf-c;e39b5a10f1fc676419731503c1df686db5697188;sakov <pavel.sakov@gmail.com>;1732234408;"v2.33.15
+"
+pre;sakov_enkf-c;15d1e4f0a9c10b18ea9104b9c0c3305195d46c0c;sakov <pavel.sakov@gmail.com>;1732593994;"v2.33.16
+"
+pre;sakov_enkf-c;af9bb68cd3bfe56f5cccb3cca8ac0a0cc6c2dc47;sakov <pavel.sakov@gmail.com>;1738018534;"added a reference to the user guide
+"
+post;sakov_enkf-c;831d94284f0b4fa2138e38174b7b7a1aa6dbea39;sakov <pavel.sakov@gmail.com>;1744003120;"v2.33.17
+"
+post;sakov_enkf-c;ddff324fdc368751b9ed21674751319ea34a5521;sakov <pavel.sakov@gmail.com>;1744328604;"v2.34.0
+"
+post;sakov_enkf-c;35233576fb8d4d973db854f575f839fc0331d64d;sakov <pavel.sakov@gmail.com>;1744520028;"v2.34.1
+"
+post;sakov_enkf-c;73836edc6f23fde772b87e68517845538e4179f1;sakov <pavel.sakov@gmail.com>;1745469226;"v2.34.2
+"
+post;sakov_enkf-c;7331ec45b956c42692ebdb9a11bb9c7025401b15;sakov <pavel.sakov@gmail.com>;1745793514;"v2.34.3
+"
+post;sakov_enkf-c;0b152054ec87bffbe8f25431dc9021fae8878fd9;sakov <pavel.sakov@gmail.com>;1746055300;"a minor update of the user guide
+"
+post;sakov_enkf-c;e328f0d7690c51fa955be92c6d155d654f70418a;sakov <pavel.sakov@gmail.com>;1747629205;"v2.34.4
+"
+post;sakov_enkf-c;20c41d52f0aeb3767047de4b5523030b79363cc9;sakov <pavel.sakov@gmail.com>;1747630590;"a cosmetic edit in update.c
+"
+post;sakov_enkf-c;afd0dfd418bf2463c75fbc75782b8e2936630592;sakov <pavel.sakov@gmail.com>;1747979771;"v2.35.0
+"
+post;sakov_enkf-c;8c720c6ba7cfc90fde8b166684915bcb4641591e;sakov <pavel.sakov@gmail.com>;1748869427;"v2.36.0
+"
+pre;sfc-aqua_quisp;b65c62c192bde5f7c2207100482f772a8681c550;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1552954507;"20km 4DSinv purification done.
+"
+pre;sfc-aqua_quisp;6a23c74b6d657ee1874dfd9a679427ca75f2d99a;kaaki <kaaki@kaakinoMacBook-Pro.local>;1553066507;"Added predefined purification procedure 5555 to HardwareMonitor.cc
+"
+pre;sfc-aqua_quisp;faba254cb2399a2ed290f470195fa7fee18bd598;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1553221885;"1,2DSXZinvWITHXZZX
+"
+pre;sfc-aqua_quisp;4afa36ac43154a9629b66f8a9190c909ea6a807b;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1553313633;"more simulation results
+"
+pre;sfc-aqua_quisp;1c66e32ff39441673bab97904e25c5edf7bf30e8;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1553383298;"DS1WITHXZZX done.
+"
+pre;sfc-aqua_quisp;b722079f97239dd63ce8d2c17e5863dff9b1a8e8;kaaki <kaaki@kaakinoMacBook-Pro.local>;1553595110;"Cleaned up Hardwaremonitor.cc
+"
+pre;sfc-aqua_quisp;02e1fcce05e3f9664f87e70c1a9f2302b239fc2d;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1553749247;"Memory size 50 done.
+"
+pre;sfc-aqua_quisp;3e39f3ab1de1c1a9be5ac306e2d9bd5e753bc1fd;kaaki <kaaki@kaakinoMacBook-Pro.local>;1553920430;"Added triple purification.
+"
+pre;sfc-aqua_quisp;643b847a257f7c28967c086efd011376f7e44e45;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1553921067;"1061 ini file
+"
+pre;sfc-aqua_quisp;78cd9de1ab6cc5d7b7e94db1932d95568e2e520e;kaaki <kaaki@kaakinoMacBook-Pro.local>;1553921405;"Triple purification bug fixed
+"
+post;sfc-aqua_quisp;1e3dea6e01218d676a57809889817689f92e2302;kaaki <kaaki@kaakinoMBP.glm-magome.bb4u.ne.jp>;1568012531;"Latest version used for kaaki's master's thesis
+"
+post;sfc-aqua_quisp;6e96be2bf2c69a8af3f1cc4251fae5f0a95f6297;Takaaki Matsuo <kaaki@sfc.wide.ad.jp>;1568012645;README.md を Bitbucket 上でオンラインで編集しました。
+post;sfc-aqua_quisp;ea73e3eec11600caa986f749c4167e779ca33ecf;Rod Van Meter <rdv@sfc.wide.ad.jp>;1579933136;"Add Authors.txt file.
+"
+post;sfc-aqua_quisp;b812af54f86be91d295b9361010b3486eb19d1ce;Rod Van Meter <rdv@sfc.wide.ad.jp>;1579935113;"Fill in basic project definition.
+"
+post;sfc-aqua_quisp;4a1d9cacd812a6419d561339452417d985e2bcee;Rod Van Meter <rdv@sfc.wide.ad.jp>;1579936004;"Add References.md.
+"
+post;sfc-aqua_quisp;12d1396b30b2ca9eea80271ae0fab518454730c2;Rod Van Meter <rdv@sfc.wide.ad.jp>;1579936473;"Tweaks.
+"
+post;sfc-aqua_quisp;f28f391eced029c642957de9b48e8fcc8d682573;Rod Van Meter <rdv@sfc.wide.ad.jp>;1580262365;"Add FAQ.md, several other very minor changes.
+"
+post;sfc-aqua_quisp;149658518cd7acef1c55787582990e9e6c89a691;Chibikuri <ryosuke.satoh.wk@gmail.com>;1581490528;"add docker instruction
+"
+post;sfc-aqua_quisp;01e527066e9820909d97b91b3892ada0f288a5d2;Chibikuri <ryosuke.satoh.wk@gmail.com>;1581507190;"fix build on docker
+"
+post;sfc-aqua_quisp;bb5e1db121010ced26f7475762655608d5025687;Rod Van Meter <rdv@sfc.wide.ad.jp>;1581734956;"Minor additions to README.
+"
+pre;stan-dev_rstanarm;25b04ac3a5323f68ef4bf026def32d51bae20309;Daniel Lee <bearlee@alum.mit.edu>;1373994672;"Initial commit
+"
+pre;stan-dev_rstanarm;93022ad83ebcb078a2f2753fe076e65920dd6664;bgoodri <goodrich.ben@gmail.com>;1373995222;Update README to specify the package's coventions
+pre;stan-dev_rstanarm;322bf4b8c6ad5e01f2236a7134e70ee683a93591;Ben Goodrich <bg2382@columbia.edu>;1373996335;"initial import
+"
+pre;stan-dev_rstanarm;6bb397e59b674d1918c8a08aad6bcb30fac38dea;Ben Goodrich <bg2382@columbia.edu>;1373996515;"Merge branch 'master' of https://github.com/stan-dev/rstanarm
+"
+pre;stan-dev_rstanarm;706af6cf1e4ee2a63947dd89b6560d03542eab00;Ben Goodrich <bg2382@columbia.edu>;1374782711;"fix stanlm()
+"
+pre;stan-dev_rstanarm;11045b23e2922e055c13c9b0b9ef232a84c12180;Ben Goodrich <bg2382@columbia.edu>;1374782773;"add drop=TRUE to apply() call
+"
+pre;stan-dev_rstanarm;69e8a8ccc07dccf5e8262d3a0f5de290c88aa471;Ben Goodrich <bg2382@columbia.edu>;1374886814;"coerce to arrays
+"
+pre;stan-dev_rstanarm;b35694d34ef0fa0d50f9e081dd38620fa8369fe3;Ben Goodrich <bg2382@columbia.edu>;1375113700;"consolidate arguments section of manpage
+"
+pre;stan-dev_rstanarm;a6643ec7ea2d7e4eabb8a9f26b910099a1d7e423;Ben Goodrich <bg2382@columbia.edu>;1375113769;"add line to .gitignore
+"
+post;stan-dev_rstanarm;11b233f91f5383ed27941a1fc47b1afb68db4a4b;jgabry <jgabry@gmail.com>;1435693684;"stan models
+"
+post;stan-dev_rstanarm;905432ba81281a9a951697f01111b26991859082;jgabry <jgabry@gmail.com>;1435693697;"functions for specifying prior distributions
+"
+post;stan-dev_rstanarm;36ecc8e51b4c4f7a650c6dbe8de9772fd72ed905;jgabry <jgabry@gmail.com>;1435693724;"stan_lm, stan_glm, stan_glm.fit
+"
+post;stan-dev_rstanarm;fe1d122271308b64d455140717552a97f9f2e8dd;jgabry <jgabry@gmail.com>;1435693737;"misc. helper functions
+"
+post;stan-dev_rstanarm;9313ce4f31b32d35d5acc9cdc4838c51ed50ab62;jgabry <jgabry@gmail.com>;1435693951;"S3 methods
+
+S3 methods for which we can’t use methods for ‘lm’ or ‘glm’
+"
+post;stan-dev_rstanarm;96566c6c2cea85b61585ac60b5ef33f26a4f279a;jgabry <jgabry@gmail.com>;1435693967;"create object returned to user
+"
+post;stan-dev_rstanarm;b8fca36ab37745c35c0ba09a465087bd494d95b9;jgabry <jgabry@gmail.com>;1435694001;"doc
+"
+post;stan-dev_rstanarm;a021369d526ae1db65ef8ca30fa27d9bfee80580;jgabry <jgabry@gmail.com>;1435694158;"fix typos
+"
+post;stan-dev_rstanarm;a624db7224fee7b36b09e80a276a9fdbe8a11024;jgabry <jgabry@gmail.com>;1435694371;"gitignore
+"
+post;stan-dev_rstanarm;7ceb10d81513ea159bbad74e78f941630949904f;jgabry <jgabry@gmail.com>;1435694389;"convert 2-level factors to binary (0/1) variable
+"
+pre;copasi_copasi-dependencies;2a237eb064bca1fa14e0192a78e384c83e3a8bd7;Stefan Hoops <shoops@copasi.org>;1524853365;"libCombine requires external zipper library.
+
+"
+pre;copasi_copasi-dependencies;8074a3e872e86c8f3fe1a4f63e2d15983a7c7a74;Stefan Hoops <shoops@copasi.org>;1524854783;"Fixed zipper CMakeLists.txt. to recognize dependency directory.
+
+"
+pre;copasi_copasi-dependencies;a2d566438d9c3cd1dd2e0ccc693d90a37377fbc0;Stefan Hoops <shoops@copasi.org>;1524857078;"Fixed zlib detection in zipper.
+
+"
+pre;copasi_copasi-dependencies;b36f15ace5c8ec6e2c73d86a2b64f9d94cf37377;Stefan Hoops <shoops@copasi.org>;1525265931;"Fixed CMake minimum version
+
+"
+pre;copasi_copasi-dependencies;5af1cf10f975414760f0e5aac507f8edd7ccfed5;Frank Bergmann <fbergman@caltech.edu>;1525693589;"- update to final version of libsbml 5.17
+"
+pre;copasi_copasi-dependencies;c392a1fd2c49f699e09b923d0a81343a1bd88f1e;Frank Bergmann <fbergman@caltech.edu>;1525785222;"- final updates for 5.17
+"
+pre;copasi_copasi-dependencies;3cbeb77287c3794e4be0dff4d70a1d333f2b04d5;Frank Bergmann <fbergman@caltech.edu>;1526990439;"- issue 5.17 release version
+"
+pre;copasi_copasi-dependencies;6f719fa549f8305aa72350e1277967e60eebde82;Frank Bergmann <fbergman@caltech.edu>;1527759350;"- issue 2572: avoid exception
+"
+pre;copasi_copasi-dependencies;d477f55ddc36f2612f7ab5c58e45040cf0e68511;Stefan Hoops <shoops@copasi.org>;1528289958;"Fixed to work with Qt 5.11
+
+"
+pre;copasi_copasi-dependencies;527adc603a454aefbfd87ecb998f56ed3b6359ab;Stefan Hoops <shoops@copasi.org>;1528380183;"The environment variable QTDIR is now searched prior to system.
+
+"
+post;copasi_copasi-dependencies;c868210cc14cfcc2b04bab9b137c8f8e6188f50f;Jonas Förster <jonasfoerster@gmail.com>;1554330005;"fix typo
+"
+post;copasi_copasi-dependencies;9d7cb323f5d885dc08aa62abfe73daac0fbe07be;Stefan Hoops <shoops@copasi.org>;1554337762;"Merge pull request #3 from jonasfoe/master
+
+fix typo for crossguid"
+post;copasi_copasi-dependencies;f0be26e6c6770ddd892979415a5918695f1e5bc5;Frank Bergmann <fbergman@caltech.edu>;1554379809;"- since we are not owning the code, don't force warnings to become errors
+"
+post;copasi_copasi-dependencies;47eae9f90f4479758791a3235ee7331bd13c57a6;Frank Bergmann <fbergman@caltech.edu>;1554904918;"- allow the choice of cmake generator (nmake build by default), fix includes of zipper
+"
+post;copasi_copasi-dependencies;990514556f960102d4b11dc2083052ae92fcd7b3;Frank Bergmann <fbergman@caltech.edu>;1554904946;"- began updating linux instructions
+"
+post;copasi_copasi-dependencies;a6d0890dc8c7be95fd8fd75ab3fd2297497a450c;Frank Bergmann <fbergman@caltech.edu>;1554905563;"- add uuid dependency and mention web engine parameter
+"
+post;copasi_copasi-dependencies;42a2cf06edfcb954fffb1974eb58e99282bb7d46;lkeegan <liam@keegan.ch>;1556807690;"- add crossguid and zipper dependencies to createLinux-qt5.sh
+"
+post;copasi_copasi-dependencies;6c43ded2f2bc5b1f6977210b537b03b56f6f6d76;Frank Bergmann <fbergman@caltech.edu>;1557224591;"Merge pull request #5 from lkeegan/master
+
+- add crossguid and zipper dependencies to createLinux-qt5.sh"
+post;copasi_copasi-dependencies;63c5fd86697f6b4e6675010a59b5a5c2fbee78ea;Frank Bergmann <fbergman@caltech.edu>;1557225690;"- update to libsbml 5.18.1
+"
+post;copasi_copasi-dependencies;669cd427717d83b0c4d350fed88fadd22c6b78cb;Frank Bergmann <fbergman@caltech.edu>;1557226107;"- add new files in 5.18.1
+"
+pre;almost-matching-exactly_dame-python-package;0697de457756a07c82cb69740ff331d979333ba9;N. Gupta <3536509+nehargupta@users.noreply.github.com>;1702767354;"Update data_cleaning.py
+
+So if no holdout data provided, uses the entire input data. AND it shouldn't error if you use RandomForestRegressor.
+"
+pre;almost-matching-exactly_dame-python-package;ef5680bb301b6726c8a09a354788d3d8b79ab2a9;Lough, Brian <brian.lough@fmr.com>;1706522362;"Removing numpy bump from setup.py
+
+Signed-off-by: Lough, Brian <brian.lough@fmr.com>
+"
+pre;almost-matching-exactly_dame-python-package;46c2a36c70f1987c1a51425094dd223eaa1f84f6;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1707190503;"Bump nokogiri from 1.14.3 to 1.16.2 in /docs
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.14.3 to 1.16.2.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.14.3...v1.16.2)
+
+---
+updated-dependencies:
+- dependency-name: nokogiri
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;almost-matching-exactly_dame-python-package;dd29fb9aac773490f48e6d040d5432253f44f0f7;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1710807482;"Bump nokogiri from 1.14.3 to 1.16.3 in /docs
+
+Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.14.3 to 1.16.3.
+- [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.14.3...v1.16.3)
+
+---
+updated-dependencies:
+- dependency-name: nokogiri
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;almost-matching-exactly_dame-python-package;a1058fe04d6f69d4e99f050675739bd6f7faf5ba;N. Gupta <3536509+nehargupta@users.noreply.github.com>;1716839401;"Update .travis.yml
+
+changed the scikit versions that the tests run on
+"
+pre;almost-matching-exactly_dame-python-package;720597f9f1d65b8a5800f69c9677ff3ac1622599;N. Gupta <3536509+nehargupta@users.noreply.github.com>;1716842940;"experimental update travis settings
+
+trying to use other build environment
+"
+pre;almost-matching-exactly_dame-python-package;63218f7e96249017a617a72fddaaeb65a05ffb85;N. Gupta <3536509+nehargupta@users.noreply.github.com>;1716911967;"Update .travis.yml
+
+attempting matrix formatting to just run the versions we know check out
+"
+pre;almost-matching-exactly_dame-python-package;b429d46347284675f52e5030eed12a66f14e6f18;N. Gupta <3536509+nehargupta@users.noreply.github.com>;1717026041;"Update user-guide-treatment-effects.md
+
+Attempt to update webpage because typo in the ATE estimate
+"
+pre;almost-matching-exactly_dame-python-package;89289446420b776a45c4d7a608cb574fd7bfa53d;GenericUser127 <62249709+GenericUser127@users.noreply.github.com>;1717170960;"Merge ef5680bb301b6726c8a09a354788d3d8b79ab2a9 into b429d46347284675f52e5030eed12a66f14e6f18
+"
+pre;almost-matching-exactly_dame-python-package;f67115b8c1cd5021d499e79bb31d8ea27b2c4543;wtc100 <146860345+wtc100@users.noreply.github.com>;1717170974;"Merge 6d584e316a76ed45908353743a4c2807e474b7d4 into b429d46347284675f52e5030eed12a66f14e6f18
+"
+post;almost-matching-exactly_dame-python-package;d84cd923d882ec30d8cec2b7b53e0582320ebd7c;Nick Eubank <nickeubank@users.noreply.github.com>;1750200841;check copy-on-write issue
+post;almost-matching-exactly_dame-python-package;e0a182f8091ef96111ccc0d4085b6731119858e5;Nick Eubank <nick@nickeubank.com>;1750201698;"found a few more chained assignment issues
+"
+post;almost-matching-exactly_dame-python-package;27d95332e12eb81270efc90c07f8a433a72ad4fa;Neha Gupta <neha.r.gupta@duke.edu>;1752191710;"Update __init__.py
+
+whitespace change - just an attempt to trigger Travis build with new setting update made
+"
+post;almost-matching-exactly_dame-python-package;c2fbb2a5f7fe60d56aaca52042ececd0c7ad0562;Neha Gupta <neha.r.gupta@duke.edu>;1752195414;"update travis settings
+
+tests run fine for me locally, updating travis numpy version due to maybe there's a nosetest upgrade that is backward incompatible with older numpy???
+"
+post;almost-matching-exactly_dame-python-package;2f9fd640d3263d9bd9e97f6023cf6278b2318c31;Neha Gupta <neha.r.gupta@duke.edu>;1752195626;"Update __init__.py
+
+random whitespace change in attempt to trigger build again -_-
+"
+post;almost-matching-exactly_dame-python-package;6797014d2e19d53474b244ae0289bb7a1c69a44b;Neha Gupta <neha.r.gupta@duke.edu>;1752196032;"remove new python version
+
+not sure why travis still not running
+"
+post;almost-matching-exactly_dame-python-package;23460720892f9dca26c187b6a0d4eef0e410cc69;Neha Gupta <neha.r.gupta@duke.edu>;1752196226;"change numpy to packaging
+
+really unsure why travis won't run
+"
+post;almost-matching-exactly_dame-python-package;78050bba04c888d9c398b30ba646eaaa7ba12c8c;Neha Gupta <neha.r.gupta@duke.edu>;1752196473;"Update .travis.yml
+
+another attempt to fix travis setting
+"
+post;almost-matching-exactly_dame-python-package;dac2bd521421421b37b6a573d38ac415d8fc087d;Neha Gupta <neha.r.gupta@duke.edu>;1752196691;"Update .travis.yml
+
+yet another attempt
+"
+post;almost-matching-exactly_dame-python-package;d3d01bb86a94bd93b7306f5f3d8a0548f4723320;Neha Gupta <neha.r.gupta@duke.edu>;1752196909;"Update .travis.yml
+"
