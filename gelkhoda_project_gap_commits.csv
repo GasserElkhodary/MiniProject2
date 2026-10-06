@@ -1,4 +1,4 @@
-prepost;project;commit;author;time;message
+pre/post;prj;commit;author;time;message
 pre;gsi-cs-co_chart-fx;01ae0a936799451e8a027452c35acffa46b7bc3c;Benjamin Peter <B.Peter@gsi.de>;1730714350;"AbstractRendererXY: Update axesList of AbstractRenderer when changed (#677)
 "
 pre;gsi-cs-co_chart-fx;8d15ad2dfafe4b48ac0c54eecf690b408a0c1451;Pavel Chervakov <chervakov@gmail.com>;1732109177;"Fix endless update loop in the presence of empty DataSet (#674)
